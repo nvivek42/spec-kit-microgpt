@@ -1,0 +1,29 @@
+name=.gitignore
+# Byte-compiled / Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual env
+.venv/
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+
+# Obsidian
+.vault/
+
+# logs
+*.log
+
+# build
+dist/
+build/
+
+# node
+node_modules/
