@@ -8,7 +8,7 @@ This repository is a scaffold created to follow the Spec-Driven Development appr
 High-level structure
 
 - raw/ — original source files (microgpt downloader placed here)
-- .microgpt/ — workflow specs and LLM context for the wiki compiler
+- microgpt/ — workflow specs and LLM context for the wiki compiler
 - wiki/ — compiled markdown/wiki output (Obsidian-friendly)
 - src/specify_cli/integrations/microgpt/ — integration stub following spec-kit patterns
 - scripts/ — utility scripts to update agent context and run tasks
